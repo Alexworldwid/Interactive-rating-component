@@ -581,6 +581,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -605,25 +609,12 @@ video {
   width: 2.5rem;
 }
 
-.w-40{
-  width: 10rem;
-}
-
 .w-8{
   width: 2rem;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-screen{
-  width: 100vw;
-}
-
-.w-fit{
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .max-w-xs{
@@ -763,10 +754,6 @@ video {
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.focus\:outline:focus{
-  outline-style: solid;
 }
 
 @media (min-width: 768px){
